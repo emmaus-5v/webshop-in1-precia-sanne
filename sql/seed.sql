@@ -5,7 +5,7 @@
 --
 
 
-insert into products (name, description, code, price) values ('Ketting met hartje', 'Deze ketting heeft een hartje en is goud', '816905633-0', 7.50, 'ketting');
+insert into products (name, description, code, price) values ('Ketting met hartje', 'Deze ketting heeft een hartje en is goud', '816905633-0', 7.50);
 insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
 
 Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
