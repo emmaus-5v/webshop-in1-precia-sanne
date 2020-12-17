@@ -28,6 +28,10 @@ CREATE TABLE maten (
     maat TEXT
 );
 
-/*JOIN kleuren ON kleuren.id = producten.kleuren_id;
+/*
+SELECT producten.naam, producten.prijs, producten.code, producten.beschrijving, kleuren.kleur, categorieen.categorie, maten.maat FROM producten
+JOIN kleuren ON kleuren.id = producten.kleuren_id
 JOIN categorieen ON categorieen.id = producten.categorieen_id
-JOIN maten ON maten.id = producten.maat_id;*/
+JOIN maten ON maten.id = producten.maat_id;
+*/
+/*Dit zijn de select en de joins die we gebruiken voor de webshop*/

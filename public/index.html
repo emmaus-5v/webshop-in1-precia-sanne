@@ -45,7 +45,7 @@
 	</main>
 	<footer>
 		<hr>
-		<p>Deze website is gemaakt door <naam leerling> voor het vak informatica op het Emmauscollege Rotterdam. Laatste
+		<p>Deze website is gemaakt door Precia, Lars en Sanne voor het vak informatica op het Emmauscollege Rotterdam. Laatste
 				bijgewerkt 1 oktober 2020.</p>
 	</footer>
 	<!-- template for product info-->
@@ -93,13 +93,13 @@
                 if(name.length < product.name.length) {
                   name = name + '...'
                 }
-                clone.querySelector(".product_title").textContent = name
-                clone.querySelector(".product_description").textContent =`${product.description.substr(0, 100)}...`
-                clone.querySelector(".product_price").textContent += product.price
-                clone.querySelector(".product_code").textContent = product.code
-                clone.querySelector(".product_id").value = product.id
-                clone.querySelector(".product_id").dataset.json = JSON.stringify(product)
-                clone.querySelector(".product_image").src =`/images/${product.id}.jpg`
+                clone.querySelector(".product_title").textContent = naam
+                clone.querySelector(".product_description").textContent =`${producten.beschrijving.substr(0, 100)}...`
+                clone.querySelector(".product_price").textContent += producten.prijs
+                clone.querySelector(".product_code").textContent = producten.code
+                clone.querySelector(".product_id").value = producten.id
+                clone.querySelector(".product_id").dataset.json = JSON.stringify(producten)
+                clone.querySelector(".product_image").src =`/images/${producten.id}.jpg`
 
                 container.appendChild(clone)
 

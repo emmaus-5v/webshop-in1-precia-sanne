@@ -165,3 +165,7 @@ done
 # Credits
 
 -  Robert Bakker [Notalifeform](https://www.gihub.com/Notalifeform)
+
+We hebben geprobeerd om de .js en de html bestanden te wijzigen zodat de webshop werkte. De code is wel gewijzigd zoals dat moest, alleen werkt de webshop niet. 
+We hebben samen met u hiernaar gekeken en eu kwam er ook niet uit. We hebben dus wel geprobeerd om dit werkende te krijgen. 
+Verder staan de select en de joins onder de tabellen in het create table bestandje.
