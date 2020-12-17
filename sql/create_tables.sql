@@ -28,7 +28,6 @@ CREATE TABLE maten (
     maat TEXT
 );
 
-/*SELECT kleuren.kleur, producten.naam FROM producten
-JOIN kleuren ON kleuren.id = producten.kleuren_id;
+/*JOIN kleuren ON kleuren.id = producten.kleuren_id;
 JOIN categorieen ON categorieen.id = producten.categorieen_id
 JOIN maten ON maten.id = producten.maat_id;*/

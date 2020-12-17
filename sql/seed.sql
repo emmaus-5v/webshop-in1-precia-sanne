@@ -12,17 +12,16 @@ INSERT INTO kleuren (id, kleur) VALUES (4, 'witgoud');
 INSERT INTO kleuren (id, kleur) VALUES (5, 'licht zilver');
 INSERT INTO kleuren (id, kleur) VALUES (6, 'donker zilver');
 
--- MATEN
-INSERT INTO maten (maat) VALUES ("small");
-INSERT INTO maten (maat) VALUES ("medium");
-INSERT INTO maten (maat) VALUES ("large");
-
 -- CATEGORIEEN
-INSERT INTO categorieen (categorie) VALUES ("armband");
-INSERT INTO categorieen (categorie) VALUES ("ketting");
-INSERT INTO categorieen (categorie) VALUES ("ring");
-INSERT INTO categorieen (categorie) VALUES ("oorbel");
+INSERT INTO categorieen (id, categorie) VALUES (1, 'armband');
+INSERT INTO categorieen (id, categorie) VALUES (2, 'ketting');
+INSERT INTO categorieen (id, categorie) VALUES (3, 'ring');
+INSERT INTO categorieen (id, categorie) VALUES (4, 'oorbel');
 
+-- MATEN
+INSERT INTO maten (id, maat) VALUES (1, 'small');
+INSERT INTO maten (id, maat) VALUES (2, 'medium');
+INSERT INTO maten (id, maat) VALUES (3, 'large');
 
 -- PRODUCTEN
 INSERT INTO producten (naam, beschrijving, code, prijs, kleuren_id, categorieen_id, maat_id) VALUES ('Ketting met hartje', 'Deze ketting heeft een hartje en is goud', '816905633-0', 7.50, 1, 2, 3);
